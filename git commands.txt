@@ -17,11 +17,13 @@ git config --global user.name 'murtazahuzaifa'
 
 7) to check git reposatory link checking commmand "git remote -v"
 
+"git logs --oneline" this will show all the previous commit addresses 
 8) git checkout
 
 git clone "repositary link"
 
 9) 
 
-
+to make our own module first we define our functions in a python file and after 
+come in the terminal and type this 'python filename.py' this will add the file in python modules
  sorry@729

@@ -1,1 +1,1 @@
-how to make a pointer in python
+if __name__ == “__main__”:   
