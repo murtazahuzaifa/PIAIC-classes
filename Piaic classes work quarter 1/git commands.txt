@@ -1,12 +1,18 @@
 first command   "git init"
 
-2nd)  git status
+2nd)  "git status"
 
-3) git add "fileName"
+3) git add "fileName"  
 
 4) IF WE want to add all file in our folder just type "git add ."
+"git reset" to unadd or unstaged the  files.
 
-5) to make a bundle of file "git commit -m 'msg' "
+if we want to unstaged and remove the changes of the file, type "git reset --hard"
+
+the is an other way to ignore file. make a file with .gitignore extension and write different files or whole extension
+in the file  to ignore that
+
+5) to make a checkpoint or snapshot of file "git commit -m 'msg' "
 
 6) git remote add origin "repo link"
 
@@ -22,7 +28,36 @@ git config --global user.name 'murtazahuzaifa'
 
 git clone "repositary link"
 
-9) 
+9) commands for braches in git 
+* git branch 
+show list of branchs
+* git branch -v
+show lilst fo branches with some details
+* git branch new-dev
+creat new branch with name 'new-dev'
+* git checkout new-dev
+switch to 'new-dev' branch
+* git merge new-dev 
+merge 'new-dev' branch into current active branch
+* git log new-dev..master  ||   git log new-master..dev
+show commit difference in two branches
+
+
+10) commands for stashes in git:
+over_view: stashes are used for temperary save changes without commiting to keep clean the commit history, we cannot commit the incomplete code therefore we use stashes
+
+* git stash save
+this will save the changes without save message
+* git stash save 'save message'
+this will save the stash with message
+* git stash list
+return the list of stash
+* git stash apply 'stash name'
+this will show us all the files in our working directory which are save in that stash
+* git stash clear
+this will clear all the stashes
+* git stash pop
+this will apply and remove the last stash that you have creatd
 
 to make our own module first we define our functions in a python file and after 
 come in the terminal and type this 'python filename.py' this will add the file in python modules
