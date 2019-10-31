@@ -28,6 +28,8 @@ git config --global user.name 'murtazahuzaifa'
 
 git clone "repositary link"
 
+
+
 9) commands for braches in git 
 * git branch 
 show list of branchs
@@ -41,6 +43,11 @@ switch to 'new-dev' branch
 merge 'new-dev' branch into current active branch
 * git log new-dev..master  ||   git log new-master..dev
 show commit difference in two branches
+* git branch -d <branchname>
+this command delete branch form local repo
+* git branch -dr <reponame> <branch name>
+this command will delete branch form remote repository
+
 
 
 10) commands for stashes in git:
@@ -58,6 +65,17 @@ this will show us all the files in our working directory which are save in that 
 this will clear all the stashes
 * git stash pop
 this will apply and remove the last stash that you have creatd
+
+
+
+11) git push -u reponame branchname
+example : git push -u origin dev
+
+
+12) to delete the following changes that are not commited following are the git commands
+command for single file example: git checkout HEAD <filename>
+command for resetting all the changes : git reset -hard HEAD
+
 
 to make our own module first we define our functions in a python file and after 
 come in the terminal and type this 'python filename.py' this will add the file in python modules
