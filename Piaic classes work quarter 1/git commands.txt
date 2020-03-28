@@ -9,7 +9,7 @@ first command   "git init"
 
 if we want to unstaged and remove the changes of the file, type "git reset --hard"
 
-the is an other way to ignore file. make a file with .gitignore extension and write different files or whole extension
+there is an other way to ignore file. make a file with .gitignore extension and write different files or whole extension
 in the file  to ignore that
 
 5) to make a checkpoint or snapshot of file "git commit -m 'msg' "
@@ -20,6 +20,14 @@ in the file  to ignore that
 
 git config --global user.email "murtaza.huzaifa2@gmail.com"
 git config --global user.name 'murtazahuzaifa'
+
+
+Control Panel\User Accounts\Credential Manager
+control panel > user accounts > credential manager > Windows credentials 
+> Generic credentials 
+Next remove the Github keys. "if you want add new username and password
+
+
 
 7) to check git reposatory link checking commmand "git remote -v"
 
@@ -74,7 +82,7 @@ example : git push -u origin dev
 
 12) to delete the following changes that are not commited following are the git commands
 command for single file example: git checkout HEAD <filename>
-command for resetting all the changes : git reset -hard HEAD
+command for resetting all the changes : git reset --hard HEAD
 
 
 to make our own module first we define our functions in a python file and after 
